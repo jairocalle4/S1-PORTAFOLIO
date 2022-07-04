@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info text-white p-2 navbar-fixed-top" role="navigation" id="perfil">
+        <div class="container-xl"  > 
+            <a class="navbar-brand" >
+                <img src="/imagenes/fotojairo.jpg" class="rounded-circle" alt="Mi foto" width="40">
+            </a>
+            <div class="col-6 "> 
+                <div class="row fw-bold fs-5">
+                Jairo Calle 
+                </div>
+            <div class="col-5 "> 
+                <div class="row fw-bold">
+                {ESTUDIANTE}
+                </div>
+            </div>
+        </div>
+   
+            <button type="button" class="navbar-toggler navbar-toggler-icon " data-bs-toggle="modal" data-bs-target="#menu"></button>
+            <div id="menu" class="modal fade" role="dialog">  
+                <div class="modal-dialog" style="margin:0px;">
+                    <div class="modal-content">      
+                        <div class="modal-header" style=" background:darkcyan; color:darkcyan; border-color:darkcyan">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        
+                        </div> 
+                        <div class="modal-body text-center"style="background-color:darkcyan;">
+                           <h5 style="height: 50px;">
+                                <a type="sumit" data-dismiss="modal" class="text-white fw-bold nav-link" href="#perfil">PERFIL</a>
+                           </h5>
+                           <h5 style="height: 50px;">
+                                <a type="submit" data-dismiss="modal" class=" text-white fw-bold nav-link" aria-label="Close" href="#expemenu"><span class="glyphicon glyphicon-remove"></span>EXPERIENCIA</a>
+                           </h5>
+                           <h5 style="height: 50px;">
+                                <a class="text-white fw-bold nav-link" href="#habilimenu">HABILIDADES</a>
+                           </h5>
+                           <h5 style="height: 50px;">
+                                <a class="text-white fw-bold nav-link" href="#miscursos">CURSOS</a>
+                           </h5>
+                           <h5 style="height: 50px;">
+                                <a class="text-white fw-bold nav-link" href="#contactomenu">CONTACTO</a>
+                           </h5>
+                        </div>    
+                    
+                    </div>  
+                </div>  
+            </div>
+            
+            <div class="collapse navbar-collapse"  id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                   <a class="nav-link text-white fw-bold" href="#perfil">PERFIL</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link text-white fw-bold" href="#expemenu">EXPERIENCIA</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link text-white fw-bold" href="#habilimenu">HABILIDADES</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link text-white fw-bold" href="#miscursos">CURSOS</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white fw-bold" href="#contactomenu">CONTACTO</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav><br>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4 text-sm-start text-center">
+                <h1 class="fw-bold" cstyle="padding: 10px; ;">Hola, soy <br> Jairo Calle</h1>
+                <p style="padding: 7px;">Soy un estudiante apasionado por aprender sobre el desarrollo de 
+                    software me encuentro en cuarto semestre de la carrera de ingeniería 
+                    en software y me gustaría aprender sobre los lenguajes de programación 
+                    y graduarse para cumplir mis metas y ser un profesional en el desarrollo
+                    del ambiente web y tecnologías del mismo ámbito.
+                </p>
+                <button type="button" class="btn btn-lg btn-primary">Descargar cv</button>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 align-self-center" >
+                <div style="text-align: center">
+                    <img class="img.fluid rounded" style="margin-top:30px;" src="/imagenes/fotojairo.jpg" alt="Mi foto" width="250">
+                </div>
+            </div>   
+        </div>
+    </div><br><br><br><br><br><br><br>
+    
+    <section class="experiencia flex-direccion" style="background-image:url(/imagenes/fondoexpe.jpg) ;" id="expemenu">
+        <div class="experiencias-body"> 
+            <div class="row col-md-8 offset-md-2">
+            <h1 class="text-center text-white" style="padding-top:100px; padding-bottom:3%"> Experiencia </h1>
+            <div class="listaexperiencias text-danger ">
+                <div class="momento ">
+                    <div class="timeline_content">
+                        <h2 class="text-black "> <strong> 2018</strong> </h2> 
+                        <h4 class="text-white"><i>BUG Tecnico</i> </h4>
+                        <p class="text-white" >Graduado en la Unidad Educativa Dr. Enrique Noboa Arizaga, de Tecnico de Servicios de Aplicaciones Informaticas, con conocimientos basicos de Programacion y Soporte Tecnico</p>
+                    </div>
+                </div>
+                <div class="momento">
+                    <div class="timeline_content">
+                        <h2 class="text-black "> <strong> 2020</strong> </h2> 
+                        <h4 class="text-white"><i>Ingreso UNEMI</i></h4>
+                        <p class="text-white" >Ingreso a la Universidad Estatal de Milagro UNEMI, donde adquiri conocimientos practicos sobre la programacion en nivel de principiante para avanzar paso a paso con el desarrollo de capacidades</p>
+                    </div>
+                </div>
+                <div class="momento text-primary">
+                    <div class="timeline_content">
+                        <h2 class="text-black "> <strong> 2021</strong> </h2> 
+                        <h4 class="text-white"><i>Curso de Mantenimiento</i> </h4>
+                        <p class="text-white" >Curso aprobado de asistencia computacional en mantenimiento preventivo de PC y Laptos, capacidades desarrollados como: instalacion limpia de Sistemas Operativos Windows y paquete Officce</p>
+                    </div>
+                </div>
+                <div class="momento text-primary">
+                    <div class="timeline_content">
+                        <h2 class="text-black "> <strong> 2022</strong> </h2> 
+                        <h4 class="text-white"><i>POO</i> </h4>
+                        <p class="text-white" >Desarrollo de capacidades de programacion Web con herramientas como, Visual Studio Code, HTML5, Bootstrap y CCS, conjuntamente con la creacion de un portafolio web.</p>
+                    </div>
+                </div>
+            </div>
+            </div>    
+        </div>
+    </section>
+ 
+    </div> <br><br><br><br><br><br><br><br>
+
+    
+        <div>
+            <h1 class=" fw-bold text-center" style="color: rgb(247, 54, 29); height: 80px" id="habilimenu">
+                Habilidades
+            </h1>
+        </div>
+        <div class="gap-3 d-md-flex justify-content-md-center" style="height: 40px; margin:0px; text-align:center;  ">
+            <button type="button"
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">CCS</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">HTML</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">JAVA SCRIPT</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold" >C++</button>
+            <button type="button"
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">PYTHON</button>
+        </div>
+        <div class="gap-3 d-md-flex justify-content-md-center" style="height: 40px; margin: 15px; text-align:center;  ">
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">HTML</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">JAVA SCRIPT</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold" >C++</button>
+            <button type="button"
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">PYTHON</button>
+            
+        </div>
+        <div class="gap-3 d-md-flex justify-content-md-center" style="height: 40px; margin: 15px; text-align:center;  ">
+            <button type="button"
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">CCS</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">HTML</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">JAVA SCRIPT</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold" >C++</button>
+        </div>
+        <div class="gap-3 d-md-flex justify-content-md-center" style="height: 40px; margin: 15px; text-align:center;  ">
+            <button type="button"
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">CCS</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">HTML</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">JAVA SCRIPT</button>
+            <button type="button" 
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold" >C++</button>
+            <button type="button"
+                class="rounded-pill  btn btn-outline-dark border border-2 shadow fw-bold">PYTHON</button>
+        </div> <br><br><br><br><br><br><br><br>
+
+    <div class="miscursos" id="miscursos">
+        <h1 class="fw-bold text-center" style="color: rgb(245, 30, 30); height: 80px">
+            Cursos
+        </h1>
+    </div>
+    <div class="container principal">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+	            <div class="row">
+                 
+	                <div class="col-lg-4 col-md-12 mb-4">
+	                  	<div class="card-section border rounded p-3">
+	                  		<div class="card-header-first rounded pb-5">
+		                      	<img src="/imagenes/JavaScript-logo.png" style="width: 150px; padding-top:10px" class="card-img-top" alt="java">
+	                  		</div>
+	                    	<div class="card-body text-center">
+                                <p class="card-text "><h5 class="fw-bold ">JAVA SCRIPT</h5> </p>
+	                    	</div>
+	                  	</div>
+	                </div>
+                 
+	                <div class="col-lg-4 col-md-12 mb-4">
+		                 <div class="card-section border rounded p-3">
+		                    <div class="card-header card-header-second  rounded pb-4">
+                                <img src="/imagenes/css.png" style="width: 100px; padding-top:10px" class="card-img-top" alt="java">
+		                    </div>
+		                    <div class="card-body text-center">
+                                <div class="card-body text-center">
+                                    <p class="card-text "><h5 class="fw-bold ">CSS</h5> </p>
+                                </div>
+		                    </div>
+	                	</div>
+	                </div>
+                
+	                <div class="col-lg-4 col-md-12 mb-4">
+	                  	<div class="card-section border rounded p-3">
+		                    <div class="card-header card-header-third rounded p-4">
+                                <img src="/imagenes//html.png" style="width: 100px; padding-top:-5px" class="card-img-top" alt="java">
+		                    </div>
+		                    <div class="card-body text-center">
+                                <div class="card-body text-center">
+                                    <p class="card-text "><h5 class="fw-bold ">HTML5</h5> </p>
+                                </div>
+		                    </div>
+		                    </div>
+	                  	</div>
+	                </div>
+	            </div>
+			</div>
+		</div>
+	</div>
+
+    <br><br><br><br><br><br><br><br>
+
+    <div class="container-sm rounded"  style="background-color:darkcyan; padding-top:5%; " id="contactomenu">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <h4 class="fw-bold text-white">Contacto</h6>
+                <p class="text-white">Direccion:</p>
+                <p class="text-white">La Troncal, Ecuador</p>
+                <p class="text-white">email:</p>
+                <p class="text-white">jcallem2@unemi.ed.ec</p>
+                <p class="text-white ">Deje su mensaje y con gusto le respondere</p>
+                <img src="/imagenes/icons8-gta-5.svg" alt="Bootstrap" width="32" height="32" style="margin: 10px;">
+                <img src="/imagenes/icons8-carpeta.svg" alt="Bootstrap" width="32" height="32" style="margin: 10px;">
+                <img src="/imagenes/icons8-facebook.svg" alt="Bootstrap" width="32" height="32" style="margin: 10px;">
+                <img src="/imagenes/icons8-instagram.svg" alt="Bootstrap" width="32" height="32" style="margin: 10px;">
+            </div>
+            <div class="col-sm-4">
+                <form>
+                    <fieldset>
+                        <legend></legend>
+                        <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label fw-bold text-white required">Nombre</label>
+                            <input type="text" id="disabledTextInput" class="form-control border-dark" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label fw-bold text-white required">Email</label>
+                            <input type="text" id="disabledTextInput" class="form-control border-dark" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label fw-bold text-white bor required">Enviar</label>
+                            <textarea class="form-control border-dark" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="button" class="btn btn-dark col-12 mx-auto " data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+                            <div id="myModal" class="modal fade" role="dialog">  
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">      
+                                        <div class="modal-body" style="padding-top:10%; padding-bottom:5%;">    
+                                            <img src="/imagenes/fotojairo.jpg" class="img-rounded align-items-center d-block mx-auto " alt="Cinque Terre" width="200" /> 
+                                            <h4 class="modal-title text-center">Gracias por su inscripcion le saluda <strong>Jairo Calle</strong></h4>
+                                            <p class="text-center">Revise su correo >> para confirmar su registro,
+                                                gracias por su comentario >>
+                                            </p>
+                                            <button style="margin-left:10%;"  type="submit" class="btn btn-danger col-12 mx-auto pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Aceptar</button> 
+                                            
+                                        </div>    
+                                      
+                                    </div>  
+                                </div>  
+                            </div> 
+                            </div>
+                        </div>
+                    </fieldset>
+                  </form>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+
+    </div>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
